@@ -1,0 +1,9 @@
+{
+  "executionUid": "4f9c0b75-af76-4b04-adc3-a5a72e08dbe0",
+  "component": "data-language-speech-silence-check",
+  "status": 200,
+  "result": {
+    "duration": 20,
+    "total_silence": 10
+  }
+}
