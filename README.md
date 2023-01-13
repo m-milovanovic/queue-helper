@@ -1,4 +1,5 @@
 A helper application that acts as a middle-man between two SQS/ElasticMQ queues. 
+
 How it works:
 - Reads the data from the input queue
 - Constructs an object based on the input and the selected fixture
