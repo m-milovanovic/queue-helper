@@ -14,9 +14,9 @@ export const parseInputArgs = () => {
   const createMessage = messageCreators.get(process.argv[4]);
   if (!createMessage) {
     throw new Error(
-      `Message argument missing/not recognized. Please choose one of: [${[
-        ...messageCreators.keys(),
-      ].join(', ')}]`
+      `Fixture missing/not recognized. Please choose one of: [${[...messageCreators.keys()].join(
+        ', '
+      )}]`
     );
   }
 
